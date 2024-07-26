@@ -8,7 +8,7 @@ export default function AboutMe() {
         <img className="my-pic" src="./my-pic.png" alt="" />
 
         <div className="about-me">
-          <p>
+          <p className="about-me">
             With over a decade in software engineering, I have deep expertise in
             web development and database management. I recently completed a full
             stack development certificate from the University of Toronto to stay
