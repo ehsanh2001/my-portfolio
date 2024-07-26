@@ -4,14 +4,11 @@ export default function Navbar() {
   const location = useLocation();
   const styles = {
     Navbar: {
-      backgroundImage:
-        "url('./nav-background.jpg')" /* Sets the background image */,
-      backgroundSize:
-        "cover" /* Adjusts the background image to cover the entire element */,
-      backgroundPosition: "center" /* Centers the background image */,
-      backgroundRepeat:
-        "no-repeat" /* Prevents the background image from repeating */,
-      height: "200px" /* Sets the height to 100% of the viewport height */,
+      backgroundImage: "url('./nav-background.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      minHeight: "200px",
     },
     navLink: {
       color: "white",
@@ -42,7 +39,7 @@ export default function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span style={styles.navLink} className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
