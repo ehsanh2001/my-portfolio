@@ -27,7 +27,6 @@
   background-color: rgb(28, 62, 126);
 }
 .flip-container.hover .back {
-  transform: rotateY(180deg) scale(1.2);
+  transform: rotateY(180deg) scale(1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  z-index: 50;
 }
