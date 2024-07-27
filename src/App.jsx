@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/navbar.jsx";
+import Footer from "./components/footer.jsx";
 import "./App.css";
 
 function App() {
@@ -13,31 +14,7 @@ function App() {
           <Outlet />
         </div>
         <div className="row">
-          <footer className="bg-dark text-white p-4 text-center">
-            <a href="https://github.com/ehsanh2001" className="text-white">
-              <img
-                src="./github.png"
-                alt="github"
-                width="50"
-                height="50"
-                target="_blank"
-              />
-            </a>
-
-            <a
-              className="ms-2"
-              href="https://www.linkedin.com/in/ehsan-hosseini-/"
-              className="text-white"
-            >
-              <img
-                src="./linkedin.png"
-                alt="linkedin"
-                width="50"
-                height="50"
-                target="_blank"
-              />
-            </a>
-          </footer>
+          <Footer />
         </div>
       </div>
     </>

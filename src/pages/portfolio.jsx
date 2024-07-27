@@ -1,5 +1,4 @@
 import React from "react";
-import FlipCard from "../components/flipCard/flip_card";
 import "../components/flipCard/flip_card.css";
 import "../App.css";
 import Project from "../components/project";
