@@ -13,11 +13,11 @@ export default function Resume() {
         <h2>Skills</h2>
         <ul className="white-text">
           <li>
-            <strong>Programming Languages: </strong> JavaScript, Python, Java
+            <strong>Programming Languages: </strong> JavaScript, Python, Java,
             C/C++, C#
           </li>
           <li>
-            <strong>Web Technologies: </strong> RESTful APIs, GraphQL, Node.js
+            <strong>Web Technologies: </strong> RESTful APIs, GraphQL, React,
             Express.js, HTML, CSS
           </li>
           <li>
