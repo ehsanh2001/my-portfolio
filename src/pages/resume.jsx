@@ -6,7 +6,10 @@ export default function Resume() {
       <div className="container pages">
         <h1>Resume</h1>
         <p>
-          <a href="https://drive.google.com/file/d/1-ANzWjs6rYbERI-33PKf98m1Bl5rQ6Qv/view?usp=sharing">
+          <a
+            href="https://drive.google.com/file/d/1-ANzWjs6rYbERI-33PKf98m1Bl5rQ6Qv/view?usp=sharing"
+            target="_blank"
+          >
             Click here to view my resume.
           </a>
         </p>
