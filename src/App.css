@@ -59,3 +59,11 @@ p.profile {
   height: 200px;
   display: block;
 }
+
+.white-text {
+  color: white;
+}
+
+ul.white-text li {
+  margin-top: 2rem;
+}
