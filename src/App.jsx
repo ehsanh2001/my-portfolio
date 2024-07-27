@@ -13,8 +13,8 @@ function App() {
           <Outlet />
         </div>
         <div className="row">
-          <footer class="bg-dark text-white p-4 text-center">
-            <a href="https://github.com/ehsanh2001" class="text-white">
+          <footer className="bg-dark text-white p-4 text-center">
+            <a href="https://github.com/ehsanh2001" className="text-white">
               <img
                 src="./github.png"
                 alt="github"
@@ -27,7 +27,7 @@ function App() {
             <a
               className="ms-2"
               href="https://www.linkedin.com/in/ehsan-hosseini-/"
-              class="text-white"
+              className="text-white"
             >
               <img
                 src="./linkedin.png"
